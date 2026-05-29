@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+
+  <AddIn Type="Command">
+    <Name>MaxRegionCommand</Name>
+    <Assembly>E:\ClosedRegionPlugin\ClosedRegionPlugin\ClosedRegionPlugin\bin\x64\Debug\ClosedRegionPlugin.dll</Assembly>
+    <FullClassName>ClosedRegionPlugin.Commands.MaxRegionCommand</FullClassName>
+    <ClientId>A1B2C3D4-0001-0001-0001-000000000001</ClientId>
+    <Text>最大封闭区域</Text>
+    <Description>选择详图线，生成最大封闭区域（黄色填充）</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>MYPLUGIN</VendorId>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Name>MinRegionCommand</Name>
+    <Assembly>E:\ClosedRegionPlugin\ClosedRegionPlugin\ClosedRegionPlugin\bin\x64\Debug\ClosedRegionPlugin.dll</Assembly>
+    <FullClassName>ClosedRegionPlugin.Commands.MinRegionCommand</FullClassName>
+    <ClientId>A1B2C3D4-0002-0002-0002-000000000002</ClientId>
+    <Text>最小封闭区域</Text>
+    <Description>选择详图线，生成N个最小封闭区域（洋红色填充）</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>MYPLUGIN</VendorId>
+  </AddIn>
+
+</RevitAddIns>
